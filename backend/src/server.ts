@@ -111,7 +111,7 @@ coapServer.on('request', (req, res) => {
     
     if (distance < 16) {
       sendTelegram(`⚠️ *Deslizamento!* Distância crítica de *${distance.toFixed(2)} cm* detectada.`)
-      sendTelegramPhotoUpload() 
+      sendTelegramPhotoUpload()
     }
     // console.log(req)
   }

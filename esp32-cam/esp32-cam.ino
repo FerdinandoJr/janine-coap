@@ -28,13 +28,13 @@
 #endif
 
 // Credenciais Wi-Fi
-const char* ssid     = "Ap 101";
-const char* password = "12345687";
+const char* ssid     = "mateus_p";
+const char* password = "12345678";
 
 // —————— CONFIGURAÇÃO DO COAP ——————
 WiFiUDP udp;
 Coap coap(udp);
-IPAddress coapServerIP(192,168,100,27); /* PC FERDINANDO: 192.168.100.27 */
+IPAddress coapServerIP(192,168,212,146); /* PC FERDINANDO: 192.168.100.27 */
 const int coapServerPort = COAP_DEFAULT_PORT;
 
 #define CAMERA_MODEL_AI_THINKER

@@ -11,11 +11,11 @@
 #define HUMIDITY_ANALOG_PIN  34  // A0 → GPIO 34 (analógico)
 
 // ——— Credenciais Wi‑Fi ———
-const char* ssid     = "Ap 101";
-const char* password = "12345687";
+const char* ssid     = "mateus_p";
+const char* password = "12345678";
 
 // ——— IP e porta do servidor CoAP ———
-IPAddress coapServerIP(192,168,100,30);
+IPAddress coapServerIP(192,168,212,19);
 const int  coapServerPort = COAP_DEFAULT_PORT;   // normalmente 5683
 
 WiFiUDP udp;
